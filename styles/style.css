@@ -50,13 +50,20 @@ nav ul li {
   list-style: none;
   padding: 15px 20px;
 }
+nav a {
+  color: #fff;
+}
 
 h1 {
   font-size: 60px;
   margin-top: 10px;
 }
-
-h2 {
+a {
+  text-decoration: none;
+  font-family: 'Silkscreen';
+  font-weight: bold;
+}
+.title {
   font-size: 50px;
 }
 
@@ -77,12 +84,16 @@ section {
   flex-direction: column;
 }
 
-#about h2{
-  text-align: center;
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .item {
-  padding: 60px 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
  .items {
@@ -98,7 +109,7 @@ section {
 
 .note {
   font-size: 30px;
-  padding-left: 315px;
+  padding-left: 20%;
 }
 
 .cat:last-of-type {
@@ -110,9 +121,6 @@ section {
 .play-button a {
   margin-top: 40px;
   color: #fff;
-  text-decoration: none;
-  font-family: 'Silkscreen';
-  font-weight: bold;
   font-size: 20px;
   padding: 20px 10px;
   border-radius: 3px;
@@ -124,13 +132,12 @@ section {
   height: 30%;
 }
 
-.controls-description {
-  display: flex;
-  flex-direction: row;
-
-}
-.control img {
+#controls img {
   width: 60%;
   padding-top: 15px;
-  /* height: 30%; */
+}
+
+#screenshots img {
+  width: 30%;
+  padding: 7px 5px;
 }
