@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Silkscreen';
+  src: url(../game/fonts/slkscre.ttf) format("truetype");
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Silkscreen';
+  font-weight: 400;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+header {
+  height: 100%;
+  background-image: url('../img/nyan-cats.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+}
+
+nav {
+  background: #000;
+  color: #fff;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+    padding-right: 3%;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 15px 20px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+section:nth-of-type(2n) {
+  background: #01244a;
+  color: #fff;
+}
+
+section:nth-of-type(2n+1) {
+  background: #fff;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#about h2{
+  text-align: center;
+}
+
+.item {
+  padding: 60px 100px;
+}
+
+ .items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cat p {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.note {
+  font-size: 30px;
+  padding-left: 315px;
+}
+
+.cat:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.play-button a {
+  margin-top: 40px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Silkscreen';
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 10px;
+  border-radius: 3px;
+  display: block;
+  background-color: red;
+}
+
+.nyan-cat, .tac-nyan {
+  height: 30%;
+}
+
+.controls-description {
+  display: flex;
+  flex-direction: row;
+
+}
+.control img {
+  width: 60%;
+  padding-top: 15px;
+  /* height: 30%; */
+}
